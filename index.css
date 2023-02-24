@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container>div{
+   
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    
+}
+
+#container>div>div{   
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#container>div>div>div{
+    border: teal solid 1px;
+    padding: 5px 10px;
+
+}
+#container>div>div>div:first-child{
+    width: 200px;
+    font-weight: bold;
+}
+#container>div>div>div:last-child{
+    width: 600px;
+}
+
+#container>div>div:first-child>div,
+ #container>div>div:nth-child(2)>div,
+  #container>div>div:nth-child(3)>div,
+   #container>div>div:nth-child(4)>div,
+    #container>div>div:nth-child(5)>div{
+    background-color: skyblue;
+}
+
+#option>div{
+    display: flex;
+    
+    
+}
+
+#option>div>div{
+    border: 1px solid teal;
+    padding: 10px;
+}
+
+#option>div>div:first-child{
+width: 150px;
+}
+
+#option>div>div:last-child{
+    width: 400px;
+}
+
+img{
+    display: block;
+    margin: 5px;
+}
+
+#filter{
+    
+    margin: 20px auto;
+    width: 250px;
+
+
+
+}
+
+#filterByDL{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
